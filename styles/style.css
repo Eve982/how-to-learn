@@ -19,24 +19,24 @@
   /* выше установили ограничения для секции */
 }
 
-.logo {
-  width: 183px;
+.logo { /* Перенесла ширину в следующее правило */
+
 }
 
-.logo__place_header {
+.logo_place_header { /* Удалила лишнее нижнее подчеркивание между названием блока и модификатором */
   position: absolute;
   margin: 0;
   left: 64px;
   top: 30px;
+  width: 183px;
   height: 32px;
   z-index: 2;
 }
 
 .header__title {
-  position: absolute;
+  /* убрала абсолютное позиционирование */
   align-self: center;
-  margin: 0;
-  left: 64px;
+  margin: 0 0 0 64px;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -55,9 +55,8 @@
   z-index: 2;
 }
 
-.header__link {
+.header__link { /* убрала абсолютное позиционирование*/
   text-decoration-line: none;
-  position: absolute;
   color: #2f80ed;
 }
 
@@ -188,7 +187,7 @@
 
 .feynman {
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -205,7 +204,7 @@
 
 .feynman__subtitle {
   margin: 0;
-  padding-top: 70px;
+  margin-top: 70px;
   line-height: 51px;
   font-size: 36px;
   text-align: center;
@@ -243,7 +242,6 @@
   z-index: 2;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -267,31 +265,35 @@
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  display: flex; /* надо ли? */
   background-color: black;
+  color: white;
   min-height: 350px;
+  padding: 60px 0 40px;
+  /* box-sizing: border-box; */
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  padding: 0;
+  margin: 0 auto;
   width: 90%;
-  color: white;
 }
 
-.footer_column_content_copyright {
-  flex-basis: 711px;
-    padding: 0;
+.footer__column {
+
+}
+
+.footer__column_content_copyright {
+    flex-basis: 711px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     list-style-type: none;
 }
 
-.logo__place_footer {
+.logo_place_footer {
+  width: 183px;
   height: 35px;
 }
 
@@ -299,47 +301,48 @@
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
+
  }
 
-.footer_column_content_info {
+.footer__column_content_info {
   padding: 0;
   list-style-type: none;
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
 .footer__column-links {
-
-}
-
-.footer__column-links:last-of-type {
-  margin-bottom: 16px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-link {
+  padding: 0;
   line-height: 30px;
-  list-style-type: none;
   font-size: 18px;
   text-decoration: none;
   color: white;
+
 }
 
-.footer_column_content_social {
+.footer__column_content_social {
   padding: 0;
-  list-style-type: none;
 }
 
 .footer__social-icon {
+  list-style-type: none;
+  padding: 0;
   height: 16px;
   width: 16px;
+  margin-right: 10px;
 }
 
 .footer__social_icon:last-of-type {
   margin-bottom: 16px;
 }
-
