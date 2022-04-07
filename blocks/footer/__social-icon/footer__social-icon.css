@@ -1,0 +1,11 @@
+.footer__social-icon {
+  list-style-type: none;
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__social_icon:last-of-type {
+  margin-bottom: 16px;
+}
