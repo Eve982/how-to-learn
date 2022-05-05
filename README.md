@@ -8,5 +8,3 @@
 - flex и grid-layout для создания сеток;
 - псевдоклассы и псевдоэлементы;
 - IFrame Player API.
-
-https://eve982.github.io/how-to-learn/
