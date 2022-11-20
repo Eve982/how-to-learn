@@ -41,10 +41,13 @@ cd how-to-learn
 </ul>
 
 <h2>Ссылка</h2>
+
+```
 https://eve982.github.io/how-to-learn/
+```
 
 
-<h2>How to learn</h2>
+<h1>How to learn</h1>
 
 A website created as part of the training program at the online school "Yandex-Practicum" by a student Bobrova O.S.
 The purpose of the website is to familiarize the visitor with popular ways of effective learning. The site also contains thematic links to additional materials on effective learning.
@@ -53,7 +56,28 @@ The purpose of the website is to familiarize the visitor with popular ways of ef
 
 These instructions will give you a copy of the project up and running on your local machine for development and testing purposes.
 
+All commands must be executed in the command line of your PC. The first command should be executed in the local folder of your PC into which you want to clone the project from a third-party repository.
+Clone the repository by executing the following command on the command line:
 
+```
+git clone <сссылка на проект>
+```
+if you are using an SSH connection, then, instead of \<project link\>, specify:
+
+```
+https://github.com/Eve982/how-to-learn.git
+```
+for HTTPS connections, specify the following link:
+
+```
+https://github.com/Eve982/how-to-learn.git
+```
+Go to the cloned project with the command:
+
+```
+cd how-to-learn
+```
+Start a virtual server from the IDE you are using.
 
 <h2>Built With the following technologies:</h2>
 <ul>
