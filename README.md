@@ -1,14 +1,34 @@
-<h2>Научиться учиться</h2>
+<h1>Научиться учиться</h1>
 
-Веб-сайт созданный в рамках программы обучения в онлайн-школе "Яндекс-Практикум" студенткой Бобровой О.С.
 Назначение веб-сайта - ознакомить посетителя с популярными способами эффективного обучения. Сайт также содержит тематические ссылки на дополнительные материалы по эффективному обучению.
-
-<!-- *Read this in other languages:* [EN](https://github.com/MelnikovAleksei/how-to-learn/blob/master/README.EN.md) поменять ссылку на свою оздзб -->
 
 <h2>Введение</h2>
 Эти инструкции позволят вам получить копию проекта на ваш локальный компьютер для целей разработки и тестирования.
 
-<h2>Системные требования</h2>
+Все команды необходимо выполнять в командной строке Вашего ПК. Первую команду следует выполнять в той локальной папке своего ПК, в которую Вы хотите склонировать проект из стороннего репозитория.
+Клонировать репозиторий выполнением следующей команды в командной строке:
+
+```
+git clone <сссылка на проект>
+```
+если Вы используете SSH-подключение, то, вместо <сссылка на проект>, укажите:
+
+```
+https://github.com/Eve982/how-to-learn.git
+```
+для HTTPS-подключений укажите следующую ссылку:
+
+```
+https://github.com/Eve982/how-to-learn.git
+```
+Перейти в клонированый проект командой:
+
+```
+cd how-to-learn
+```
+Запустить виртуальный сервер из используемой Вами IDE.
+
+
 
 <h2>Сайт создан с применением следующих технологий:</h2>
 <ul>
@@ -29,11 +49,11 @@ https://eve982.github.io/how-to-learn/
 A website created as part of the training program at the online school "Yandex-Practicum" by a student Bobrova O.S.
 The purpose of the website is to familiarize the visitor with popular ways of effective learning. The site also contains thematic links to additional materials on effective learning.
 
-<!-- <h2>Getting Started</h2>
+<h2>Getting Started</h2>
 
 These instructions will give you a copy of the project up and running on your local machine for development and testing purposes.
 
-<h2>Prerequisites</h2> -->
+
 
 <h2>Built With the following technologies:</h2>
 <ul>
